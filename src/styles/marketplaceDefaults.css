@@ -13,20 +13,22 @@
  * Read more about how to use CSS Custom Properties
  * https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
  */
-
+ <style>
+ @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+ </style>
 :root {
   /* ================ Colors ================ */
 
   --marketplaceColor: #fc790d; /* hsl(260, 63%, 46%) */
-  --marketplaceColorLight: #7748d5; /* hsl(260, 63%, 56%), +10L from marketplaceColor */
-  --marketplaceColorDark: #34196c; /* hsl(260, 63%, 26%), -20L from marketplaceColor */
+  --marketplaceColorLight: #d6c0b3; /* hsl(260, 63%, 56%), +10L from marketplaceColor */
+  --marketplaceColorDark: #a49284; /* hsl(260, 63%, 26%), -20L from marketplaceColor */
 
   /* Used with inline CSS SVGs */
   --marketplaceColorEncoded: %23a02cbf;
 
-  --successColor: #2ecc71;
-  --successColorDark: #239954;
-  --successColorLight: #f0fff6;
+  --successColor: #fc790d;
+  --successColorDark: #453c3f;
+  --successColorLight: #f2ede6;
   --failColor: #ff0000;
   --failColorLight: #fff0f0;
   --attentionColor: #ffaa00;
@@ -44,12 +46,12 @@
   --matterColorLightTransparent: rgba(255, 255, 255, 0.65);
 
   /* ================ Font ================ */
-  --fontFamily: 'poppins', Helvetica, Arial, sans-serif;
+  --fontFamily: 'Abel', Helvetica, Arial, sans-serif;
 
-  --fontWeightRegular: 400;
-  --fontWeightMedium: 500;
-  --fontWeightSemiBold: 600;
-  --fontWeightBold: 700;
+  --fontWeightRegular: 300;
+  --fontWeightMedium: 400;
+  --fontWeightSemiBold: 500;
+  --fontWeightBold: 600;
 
   --fontWeightHighlightEmail: var(--fontWeightBold);
 
@@ -288,9 +290,9 @@ textarea {
 
 .fontsLoaded {
   & body {
-    font-family: 'poppins', Helvetica, Arial, sans-serif;
+    font-family: 'Abel', Helvetica, Arial, sans-serif;
   }
   & button {
-    font-family: 'poppins', Helvetica, Arial, sans-serif;
+    font-family: 'Abel', Helvetica, Arial, sans-serif;
   }
 }
